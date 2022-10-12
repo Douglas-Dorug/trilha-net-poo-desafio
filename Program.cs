@@ -7,11 +7,18 @@ Smartphone nokia = new Nokia(numero: "123789", modelo: "Nokia M10", imei: "11515
 
 nokia.Ligar();
 nokia.ReceberLigacao();
-nokia.InstalarAplicativo("Whatzaperson");
+nokia.ObterIMEI();
+nokia.ObterModelo();
+nokia.InstalarAplicativo("Whatsapp messenger");
 
-Console.WriteLine("Smartphone Nokia:");
+Console.WriteLine(" ");
+
+
+Console.WriteLine("Smartphone Iphone:");
 Smartphone iPhone = new Iphone(numero: "1584689", modelo: "Iphone 10", imei: "2120589325", memoria: 32);
 
-nokia.Ligar();
-nokia.ReceberLigacao();
-nokia.InstalarAplicativo("Whatzaperson");
+iPhone.Ligar();
+iPhone.ReceberLigacao();
+iPhone.ObterIMEI();
+iPhone.ObterModelo();
+iPhone.InstalarAplicativo("Safari Browser");

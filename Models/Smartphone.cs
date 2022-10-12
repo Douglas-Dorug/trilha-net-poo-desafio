@@ -19,6 +19,16 @@ namespace DesafioPOO.Models
             //Implementado
         }
 
+        public void ObterIMEI()
+        {
+            Console.WriteLine($"IMEI: {IMEI}");
+        }
+
+        public void ObterModelo()
+        {
+            Console.WriteLine($"Modelo: {Modelo}");
+        }
+
         public void Ligar()
         {
             Console.WriteLine("Ligando...");
